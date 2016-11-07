@@ -11,7 +11,7 @@ class ReactCosmosView extends ScrollView
   attached: ->
     @editor = @editorForId(@editorId)
     # TODO: Comunicate error when editor isn't found
-    @renderCosmosIframe(@getCosmosUrl())
+    @renderCosmosIframe(@getCosmosUrl()) if @editor
 
   editorForId: (editorId) ->
     for editor in atom.workspace.getTextEditors()
