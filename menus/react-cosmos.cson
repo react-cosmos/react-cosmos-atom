@@ -1,0 +1,10 @@
+'menu': [
+  'label': 'Packages'
+  'submenu': [
+    'label': 'React Cosmos'
+    'submenu': [
+      'label': 'Toggle'
+      'command': 'react-cosmos:toggle'
+    ]
+  ]
+]

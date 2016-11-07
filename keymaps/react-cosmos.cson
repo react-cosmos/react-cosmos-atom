@@ -1,0 +1,2 @@
+'atom-workspace, atom-workspace atom-text-editor':
+  'ctrl-shift-r': 'react-cosmos:toggle'

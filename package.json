@@ -1,0 +1,32 @@
+{
+  "name": "react-cosmos",
+  "version": "0.1.0",
+  "description": "Render React components next to your code with `ctrl-shift-r`.",
+  "repository": "https://github.com/react-cosmos/react-cosmos-atom",
+  "license": "MIT",
+  "main": "./lib/main",
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "configSchema": {
+    "showFixtureEditor": {
+      "type": "boolean",
+      "default": true,
+      "description": "Show fixture editor next to the rendered component"
+    },
+    "serverHost": {
+      "type": "string",
+      "default": "localhost"
+    },
+    "serverPort": {
+      "type": "number",
+      "default": 8989
+    }
+  }
+}
